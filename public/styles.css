@@ -1,0 +1,3494 @@
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+
+
+
+}
+
+
+body{
+
+
+  line-height:1.5;
+  color: white;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+*{
+  box-sizing: border-box;
+
+
+
+}
+
+.break{
+  flex-basis: 100%;
+  height: 0px;
+
+
+}
+
+.nav-text{
+
+  color: white;
+
+
+}
+.nav-textR{
+  position: relative;
+  top: 8px;
+  color: white;
+
+
+}
+input::placeholder{
+  text-align: left;
+  padding-left: 7px;
+}
+
+textarea::placeholder{
+  text-align: left;
+  padding-left: 7px;
+
+
+
+}
+
+.navigation{
+
+  width: 100%;
+
+
+}
+.nav-bg{
+  background-color: transparent;
+
+
+
+
+}
+#nav-padding{
+  color: white;
+  margin-left: 75%;
+
+
+}
+
+
+.v-header{
+  
+  height: 100vh;
+  min-height: 821px;
+  display: flex;
+  align-items: center;
+  color: white;
+
+
+
+}
+
+.navigation{
+  position: absolute;
+  top: 0;
+  z-index: 4;
+
+
+
+}
+
+.container{
+
+  max-width: 960;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+
+
+
+}
+.fullscreen-video-wrap{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+    min-height: 821px;
+  overflow: hidden;
+
+
+
+}
+
+.fullscreen-video-wrap video{
+  min-width: 100%;
+  min-height: 100%;
+  min-height: 821px;
+
+}
+.header-overlay{
+  height: 100vh;
+  min-height: 821px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 1;
+  opacity: 0.85;
+}
+
+.header-content{
+
+
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  z-index: 2;
+
+  flex-direction: column;
+}
+
+
+#header-btn{
+
+}
+
+
+.title{
+  
+  font-size: 8vw;
+  font-family: 'Abril Fatface', cursive;
+  line-height: 50%;
+
+}
+
+.title-fun{
+
+  font-size: 1.8vw;
+
+}
+.headercontent {
+  
+  margin-bottom: 0;
+
+}
+
+
+
+
+
+#intro-des{
+  background-color: black;
+  width:100%;
+  height:61vh;
+  min-height: 501px;
+  background-color: black;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#about-pic{
+
+  height: 278px;
+  width: 432px;
+  margin-right: 60px;
+
+  
+
+
+
+
+}
+#about-des{
+  height: 60vh;
+  min-height: 501px;
+  width: 500px;
+  display: flex;
+  flex-direction:column;
+  gap: 0px;
+}
+
+.intro-img{
+
+  object-fit: cover;
+ height: 100%;
+ width: 100%;
+
+
+
+
+}
+.flex-container {
+
+
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+
+  align-items: center;
+}
+
+
+.aboutUs{
+  color: white;
+  font-size: 45px;
+  font-family: 'Abril Fatface', cursive;
+
+
+
+}
+
+
+
+
+
+
+.description{
+
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+
+}
+
+
+#divider {
+
+  position: relative;
+  bottom: 10%;
+
+  width: 100%;
+  height: 9vw;
+  z-index: 10;
+  /* set height to pixels if you want angle to change with screen width */
+}
+#whatweoffer{
+
+  background-image: url(/images/friends.jpg);
+  width: 100%;
+  height: 90vh;
+  min-height: 1000px;
+  background-color: black;
+  background-size: cover;
+
+
+  flex-wrap: nowrap;
+
+
+  z-index: 0;
+  background-attachment: fixed;
+  background-position:  center center;
+  background-repeat: no-repeat;
+
+}
+
+#column{
+
+
+  margin-left: 3%;
+  margin-bottom: 5%;
+}
+.about-overlay{
+
+  height: 90vh;
+  min-height: 1000px;
+  width: 100%;
+  position: absolute;
+
+  background-color: black;
+  z-index: 1;
+  opacity: 0.65;
+
+
+
+}
+
+.flex-container #info{
+
+  height:40vh;
+  width:45%;
+  min-width: 350px;
+  min-height: 500px;
+  max-width: 380px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 15;
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+
+
+  padding: 5%;
+
+  position: relative;
+  bottom: 40px;
+  padding-top: 20px;
+
+}
+.flex-container #features-des{
+
+  flex-direction: column;
+  margin-right: 7%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-left: 6%;
+  padding-left: 2%;
+  margin-bottom: 80px;
+  max-width: 800px;
+}
+.advertisement{
+
+
+
+  font-size: 35px;;
+  color: white;
+
+  align-self: flex-start;
+  text-align: center;
+
+
+
+
+
+}
+
+#advertisementID{
+
+  font-size: 35px;
+  color: white;
+  margin-left: 5%;
+  align-self: flex-start;
+  margin-top: 30px;
+  text-align: center;
+
+}
+.advertisement{
+
+  margin-top: 30px;
+
+
+
+}
+
+.entertainment{
+
+  align-self: center;
+
+
+  margin-bottom: 40%;
+}
+
+
+
+
+.flex-container #features-info{
+  background: rgba(0, 0, 0, 0.6);
+  height:42vh;
+  width:100%;
+  min-height: 484px;
+  min-width: 750px;
+  max-width: 900px;
+  flex-direction: row;
+  z-index: 21;
+  display: flex;
+  flex-wrap: nowrap;
+
+
+  margin-top: 120px;
+}
+.f-description{
+
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+#column{
+  flex-direction: column;
+}
+.features-pic{
+
+
+
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+
+
+}
+
+
+
+
+
+
+#image-padding{
+  height: 42vh;
+  min-height: 290px;
+  max-height: 356px;
+  width: 100%;
+  min-width: 400px;
+
+
+
+}
+
+
+
+.flex-container #test{
+
+  height: 250px;
+  width: 25vw;
+  min-width: 450px;
+  background: rgba(0, 0, 0, 0.6);
+
+  z-index:20;
+
+  flex-direction: column;
+  margin-top: 40px;
+
+}
+
+
+
+.flex-container #carousel-2{
+
+  
+}
+
+
+
+.test-des{
+
+  margin-top: 13px;
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.test-pic{
+
+  border-radius: 50%;
+  height:100px;
+  width: 100px;
+  object-fit: cover;
+
+
+}
+
+.test-des-sig{
+
+  color: white;
+
+
+
+}
+
+.flex-container #carousel-3{
+
+
+  height: 50vh;
+  width: 700px;
+
+  margin-right:  2%;
+  margin-left: 10%;
+
+  z-index: 50;
+}
+
+
+.info-icon{
+
+
+
+
+}
+.features-icon {
+
+  align-self: center;
+
+}
+.fa-primary{
+  color: blue;
+
+}
+.fa-secondary{
+  color: darkviolet;
+
+
+}
+
+
+
+
+#lineup{
+
+  background-color: black;
+  height: 55vh;
+  min-height: 650px;
+  width: 100vw;
+  flex-direction: row;
+  padding-top: 30px;
+
+
+
+
+
+
+}
+
+.lineup-icon{
+  position: relative;
+
+
+
+
+}
+
+.Star-title{
+
+
+  color: white;
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  align-self: flex-start;
+
+}
+
+
+
+
+
+
+hr{
+
+
+  width:100vw;
+}
+
+#attractions{
+
+
+  position: relative;
+
+  bottom: 75px;
+}
+
+.card{
+
+
+  margin: 25px;
+}
+
+.card-header{
+  height: 70px;
+  width: 300px;
+}
+
+.card-pic{
+
+  object-fit: cover;
+  width: auto;
+  height: 260px;
+
+
+}
+
+
+
+
+
+
+
+#Music-sec{
+  background-image: url(/images/dj-woman.jpg);
+  height: 85vh;
+  min-height: 1000px;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+
+  flex-wrap: nowrap;
+
+
+
+
+
+}
+
+#divider-2{
+
+  position: absolute;
+  top: 309%;
+
+  width: 100%;
+  height: 15vh;
+  z-index: 10;
+
+
+
+
+
+}
+
+.music-overlay{
+  height: 85vh;
+  width: 100vw;
+  min-height: 1000px;
+  position: absolute;
+
+  background-color: black;
+  z-index: 1;
+  opacity: 0.65;
+
+
+
+
+
+
+}
+
+
+
+#events{
+
+  background: rgba(0, 0, 0, 0.6);
+  height:46vh;
+  width: 900px;
+  min-height: 600px;
+  align-items: flex-start;
+  padding-right: 30px;
+  padding-left: 30px;
+  flex-flow: row;
+  margin-right: 40px;
+  display:flex;
+  margin-left: 5%;
+  z-index: 2;
+
+}
+.eventlist{
+
+  height: 47vh;
+  min-height: 525px;
+
+}
+
+.performance-container{
+  flex-shrink: 0;
+  height:42vh;
+  min-height: 300px;
+  width: 350px;
+  padding-right: 50px;
+  padding-top: 10px;
+  display: flex;
+}
+.performance-pic{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+
+}
+#event-post{
+
+  background: rgba(0, 0, 0, 0.1);
+
+  height: 120px;
+  width: 100%;
+  border-top: 2px solid white;
+  flex-flow: column;
+}
+
+.event-Title{
+  margin-bottom: 0rem;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 30px;
+
+}
+
+.event-Date{
+  color: white;
+  align-self: flex-start;
+  padding-top: 20px;
+
+
+}
+.event-info{
+
+  color: white;
+  align-self: flex-start;
+
+
+
+
+}
+.event-time{
+
+  color: white;
+  align-self: flex-start;
+
+
+
+
+}
+
+
+#music-player{
+
+  background-color: white;
+  height: 50vh;
+  width: 400px;
+  min-width: 420px;
+  min-height: 600px;
+  margin-left: 50px;
+  z-index: 200;
+  position: relative;
+  bottom: 140px;
+  flex-direction: row;
+  border-radius: 18px;
+  margin-right: 5%;
+  display: flex;
+
+}
+
+#music-banner{
+  height: 10vh;
+  min-height: 67px;
+  width: 100%;
+  background-image: url(/images/blurred_lines.jpeg);
+  z-index: 201;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-self: flex-start;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  color: white;
+  font-size: 25px;
+
+}
+
+
+#mp4{
+
+  flex-direction: row;
+  align-self: flex-start;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+#mp4-des{
+
+  flex-direction: column;
+  padding-right: 130px;
+  margin-bottom: -20px;
+  display: flex;
+  margin-right: auto;
+
+  margin-left: 5px;
+  padding-left: 15px;
+  line-height: 200%;
+}
+.mp4-name{
+  align-self: flex-start;
+  font-weight: bold;
+
+
+}
+
+
+#mp4-icons{
+
+  padding-right: 30px;
+  display: flex;
+
+  margin-left: auto;
+
+}
+
+.pause-icon{
+
+  margin-left: 20px;
+
+
+
+}
+
+
+
+
+#gallery{
+
+
+  background-color: black;
+  height: 85vh;
+  min-height: 1000px;
+  width: 100vw;
+  flex-direction: row;
+
+
+
+
+}
+
+.image{
+
+
+  display: flex;
+
+
+}
+.image-long{
+  grid-column-start: 3;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+
+
+
+
+}
+
+.image-wide{
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+
+
+
+
+
+}
+
+
+
+.image-last{
+  grid-column-start: 4;
+  display:flex;
+
+
+
+}
+.grid-container{
+
+  display: grid;
+  grid-template-columns: 300px 300px 400px 500px;
+  grid-template-rows: repeat(2, 400px);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+.overlay{
+  position: absolute;
+
+  background: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  height:400px;
+  opacity: 0;
+
+  transition: .1s ease;
+
+
+}
+
+
+.image:hover .overlay{
+
+
+  opacity: 1;
+
+
+}
+.image-long:hover .overlay{
+
+  opacity: 1;
+  width: 400px;
+  height: 825px;
+
+
+}
+.image-mask:hover .overlay{
+
+  opacity: 1;
+  width: 500px;
+
+
+}
+.image-wide:hover .overlay{
+
+  opacity: 1;
+  width: 625px;
+
+
+}
+.image-last:hover .overlay{
+
+  opacity: 1;
+  width: 500px;
+
+
+}
+
+
+
+
+.gallery-pic{
+
+  object-fit: cover;
+  width: 100%;
+  height :100%;
+  object-position:center;
+
+
+
+
+
+}
+#mask-girls{
+  object-position: center right;
+
+
+}
+#dababy{
+  object-position: 50% 40% ;
+
+
+
+}
+
+#modal{
+  height: 600px;
+  width: 800px;
+
+}
+.modal-img{
+
+  object-fit: cover;
+  height:100%;
+  width:100%;
+
+
+}
+
+
+#contact{
+  background-image: url(/images/dark-rroom.jpg);
+  height: 85vh;
+  min-height: 1000px;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+
+
+#contact-overlay{
+
+  height: 85vh;
+  width: 100vw;
+  min-height: 1000px;
+  position: absolute;
+
+  background-color: black;
+  z-index: 1;
+  opacity: 0.65;
+
+
+
+
+
+
+
+
+}
+
+#contact-us{
+
+  height:50vh;
+  min-height: 800px;
+  width: 409px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center !important;
+
+  align-items: flex-start !important;
+  z-index: 2;
+
+
+}
+#contact-write{
+
+  justify-content: flex-start !important;
+
+  align-items: flex-start !important;
+
+
+
+
+
+}
+.contact-title{
+
+  color: white;
+  font-size: 45px;
+  font-family: 'Abril Fatface', cursive;
+
+
+}
+.contact-info{
+
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  align-self: flex-start;
+  font-weight: lighter;
+
+
+
+}
+#contact-info{
+
+  flex-direction: column;
+  justify-content: flex-start !important;
+
+  align-items: flex-start !important;
+  margin-top: 40px;
+
+}
+
+.location{
+  font-size: 35px;
+  color: white;
+  font-family: sans-serif;
+
+
+}
+.location-info{
+  font-size: 15px;
+  color: white;
+  font-family: sans-serif;
+  font-weight:100;
+
+
+}
+
+
+#reserve{
+
+  background: rgba(17, 16, 16, 0.8);
+  height:50vh;
+  width: 20%;
+  min-height: 570px;
+  min-width: 400px;
+  justify-content: center !important;
+
+  align-items: center !important;
+  flex-direction: row;
+  z-index: 2;
+  margin-bottom: 70px;
+  margin-left: 50px;
+  display: flex;
+
+
+}
+.reserve-title{
+
+  color: white;
+  font-size: 38px;
+  font-family: 'Abril Fatface', cursive;
+  align-self: center;
+
+
+}
+.text-box{
+  background: rgba(0, 0, 0, 0.0);
+  border: darkred solid 1px;
+  height: 40px;
+  width: 8%;
+  min-width: 170px;
+
+  color: white;
+  text-align: left !important;
+  padding-left: 10px;
+}
+.text-left{
+
+  margin-right: 10px;
+
+
+
+
+}
+.text-r{
+
+  margin-left: 10px;
+  text-align:left !important;
+  direction: ltr !important;
+}
+
+#text-area{
+  background: rgba(0, 0, 0, 0.0);
+  border: darkred solid 1px;
+  width: 17%;
+  min-width: 320px;
+  color: white;
+
+}
+#res-button{
+  margin-top: 16px;
+  width: 18%;
+  min-width: 320px;
+
+}
+
+
+
+
+#newsletter{
+  background-color: black;
+  height: 25vh;
+  min-height: 200px;
+  width: 100vw;
+  flex-direction:row;
+  align-items: center;
+
+
+
+}
+
+.news-title{
+  margin-top: 21px;
+  color: white;
+  font-size: 45px;
+  font-family: 'Abril Fatface', cursive;
+
+
+
+
+
+}
+.text-news{
+
+  background: rgba(0, 0, 0, 0.0);
+  border: darkred solid 1px;
+  height: 4.4vh;
+  width:500px;
+  margin-right: 40px;
+
+
+}
+#subscribe{
+  flex-direction: row;
+  margin-bottom: 125px;
+
+
+
+}
+.sub-button{
+
+  height: 4.4vh;
+  width: 200px;
+
+
+
+}
+.navform-bg{
+  background-color: black;
+
+
+
+
+}
+.navigation-form{
+
+  width: 100%;
+
+
+}
+.form-page{
+
+  background-image: url(/images/dark-rroom.jpg);
+  height: 85vh;
+  min-height: 1000px;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+#form-newsletter{
+  background-color: black;
+  height: 25vh;
+  min-height: 200px;
+  width: 100vw;
+  flex-direction:row;
+  align-items: center;
+
+
+
+}
+.reserve-1{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#reservef{
+
+  background: rgba(17, 16, 16, 0.8);
+  height:60vh;
+  width: 24%;
+  min-height: 600px;
+  min-width: 614px;
+  justify-content: center !important;
+
+  align-items: center !important;
+  flex-direction: column;
+  z-index: 2;
+  margin-bottom: 70px;
+
+  display: flex;
+
+
+}
+.reserve-titlef{
+
+  color: white;
+  font-size: 38px;
+  font-family: 'Abril Fatface', cursive;
+  align-self: center;
+
+
+}
+.text-boxf{
+  background: rgba(0, 0, 0, 0.0);
+  border: darkred solid 1px;
+  height: 40px;
+  width: 35%;
+  min-width: 170px;
+  padding-left: 10px;
+  color: white;
+  text-align: left !important;
+
+}
+.text-leftf{
+
+  margin-right: 10px;
+
+
+
+
+}
+.text-rf{
+
+  margin-left: 10px;
+  text-align:left !important;
+  direction: ltr !important;
+}
+
+#text-areaf{
+  background: rgba(0, 0, 0, 0.0);
+  border: darkred solid 1px;
+  width: 73%;
+
+  color: white;
+
+}
+#res-buttonf{
+  margin-top: 16px;
+  width: 18%;
+  min-width: 320px;
+
+}
+.text-c{
+  width: 73%;
+
+
+
+
+}
+.button-price{
+
+  flex-direction: row;
+  margin-top: 20px;
+
+}
+
+.sub-buttonf{
+
+  height: 3.4vh;
+  width: 200px;
+
+
+
+}
+.sub-buttonfd{
+
+  height: 3.4vh;
+  width: 100%;
+
+
+
+}
+.button-marginl{
+  margin-right: 46px;
+
+
+}
+.button-marginr{
+
+
+
+}
+.detail-container{
+  margin-top: 30px;
+  width: 73%;
+}
+
+
+.news-titlef{
+
+  margin-top: 21px;
+  color: white;
+  font-size: 33px;
+  font-family: 'Abril Fatface', cursive;
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1610px) and (min-width: 1300px) {
+
+  .grid-container{
+
+    display: grid;
+    grid-template-columns: 250px 250px 320px 410px;
+    grid-template-rows: repeat(2, 400px);
+    grid-column-gap: 15px;
+    grid-row-gap: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+
+  .image:hover .overlay{
+
+
+    opacity: 1;
+
+
+  }
+  .image-long:hover .overlay{
+
+    opacity: 1;
+    width: 320px;
+    height: 825px;
+
+
+  }
+  .image-mask:hover .overlay{
+
+    opacity: 1;
+    width: 410px;
+
+
+  }
+  .image-wide:hover .overlay{
+
+    opacity: 1;
+    width: 510px;
+
+
+  }
+  .image-last:hover .overlay{
+
+    opacity: 1;
+    width: 410px;
+
+
+  }
+
+  .flex-container #carousel-2{
+    margin-left: 5%;
+
+
+  }
+
+  .flex-container #carousel-3 {
+    height: 50vh;
+    margin-right: 2%;
+    margin-left: 10%;
+    z-index: 50;
+
+    max-width: 770px;
+    min-height: 500px;
+  }
+  .flex-container #features-info {
+    background: rgba(0, 0, 0, 0.6);
+    height: 42vh;
+    width: 100%;
+    min-width: 750px;
+    max-width: 900px;
+    flex-direction: row;
+    z-index: 21;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 70px;
+    min-height: 460px;
+  }
+  .flex-container #info {
+    min-height: 450px;
+    min-width: 350px;
+    max-width: 380px;
+
+  }
+  .flex-container #carousel-2 {
+ 
+  }
+
+  #lineup {
+    background-color: black;
+    height: 58vh;
+    width: 100vw;
+    flex-direction: row;
+    padding-top: 30px;
+  }
+  .Star-title {
+    color: white;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    align-self: flex-start;
+    margin-bottom: 40px;
+  }
+  #music-player {
+    background-color: white;
+    height: 50vh;
+    width: 400px;
+    margin-left: 50px;
+    z-index: 200;
+    position: relative;
+    bottom: 60px;
+    flex-direction: row;
+    border-radius: 18px;
+    margin-right: 5%;
+    display: flex;
+    min-height: 600px;
+
+  }
+  #events {
+    background: rgba(0, 0, 0, 0.6);
+    height: 46vh;
+    width: 900px;
+    align-items: flex-start;
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-flow: row;
+    margin-right: 40px;
+    display: flex;
+    margin-left: 5%;
+    z-index: 2;
+    min-height: 570px;
+  }
+  .performance-container {
+    flex-shrink: 0;
+    height: 42vh;
+    width: 350px;
+    padding-right: 50px;
+    padding-top: 10px;
+    display: flex;
+    margin-top: 50px;
+  }
+  #gallery {
+    background-color: black;
+    height: 85vh;
+    width: 100vw;
+    flex-direction: row;
+    min-height: 1000px;
+  }
+
+  #newsletter {
+    background-color: black;
+    height: 25vh;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    min-height: 200px;
+  }
+  #reserve {
+    background: rgba(17, 16, 16, 0.8);
+    height: 50vh;
+    width: 20%;
+    min-width: 400px;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: row;
+    z-index: 2;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    display: flex;
+    min-height: 570px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1299px) and (min-width: 701px) {
+
+
+
+  #intro-des{
+    background-color: black;
+    width:100vw;
+    height:60vh;
+    min-height: 900px;
+    background-color: black;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  #about-pic{
+
+    height: 350px;
+    width: 350px;
+    min-width: 470px;
+    margin-bottom: -95px;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+  }
+
+
+  #about-des{
+    height: 60vh;
+    width: 40%;
+    display: flex;
+    flex-direction:column;
+    gap: 0px;
+  }
+
+  .intro-img{
+
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+
+
+
+  }
+
+
+
+  .aboutUs{
+    color: white;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+
+
+
+  }
+
+
+
+
+
+
+  .description{
+
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+  }
+
+
+
+
+
+
+ 
+
+  #whatweoffer{
+
+    flex-wrap: nowrap;
+    height: 130vh;
+    min-height: 1700px;
+    flex-direction: column;
+    
+  }
+
+  #column{
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+  .flex-container #info{
+    margin-top: 50px;
+    height:40vh;
+    min-height: 450px;
+    width:95%;
+    min-width: unset;
+    margin-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+  }
+  #carousel-3{
+
+    position: relative;
+    bottom: 150px;
+  }
+  .flex-container #test{
+
+    margin-top: 160px;
+    width: 400px;
+  }
+  .flex-container #carousel-2{
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+
+  .flex-container #carousel-3{
+    margin-right: 10%;
+
+  }
+  #advertisementID{
+    font-size: 25px;
+
+
+  }
+  .flex-container #features-info{
+    background: rgba(0, 0, 0, 0.6);
+    height:42vh;
+    width:100%;
+    min-width: 620px;
+    max-width: 900px;
+    flex-direction: row;
+    z-index: 21;
+    display: flex;
+    flex-wrap: nowrap;
+
+
+    margin-top: 120px;
+  }
+
+  #image-padding{
+    height: 42vh;
+    width: 100%;
+    min-width: unset;
+
+
+
+  }
+  .f-description{
+    font-size: 18px;
+
+
+  }
+  #features-des{
+    width: 70%;
+
+
+
+
+  }
+
+  .about-overlay{
+
+    height: 130vh;
+    min-height: 1700px;
+
+  }
+  #lineup{
+
+    
+    min-height: 950px;
+
+
+
+  }
+  .Star-title{
+
+    font-size: 35px;
+    margin-bottom: 15%;
+    top: 45px;
+
+  }
+  #attractions {
+    position: relative;
+    bottom: 105px;
+}
+  svg{
+    display: none;
+
+
+  }
+
+
+  .card{
+
+    height:280px;
+
+
+  }
+
+
+
+  .lineup-icon{
+    position: unset;
+    left: unset;
+    margin-bottom: 0px;
+    margin-top: 40px;
+
+
+  }
+
+  #Music-sec{
+    background-image: url(/images/dj-woman.jpg);
+    height: 140vh;
+    width: 100%;
+    min-height: 1700px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+
+
+
+  }
+
+
+  #events{
+
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 600px;
+    width: 670px;
+    align-items: flex-start;
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-flow: row;
+    margin-right: 40px;
+    display:flex;
+    margin-left: 5%;
+    z-index: 2;
+    margin-bottom: 53px;
+
+  }
+  .eventlist{
+
+    height: 47vh;
+
+  }
+
+  .performance-container{
+    flex-shrink: 0;
+    height:42vh;
+    width: 350px;
+    padding-right: 50px;
+    padding-top: 10px;
+    display: flex;
+  }
+  .performance-pic{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+
+  }
+  .music-overlay{
+    height: 140vh;
+    width: 100%;
+    min-height: 1700px;
+    position: absolute;
+
+    background-color: black;
+    z-index: 1;
+    opacity: 0.65;
+
+
+
+
+
+
+  }
+
+
+  #music-player{
+
+    background-color: white;
+    height: 44%;
+    min-width: 400px;
+    margin-left: 50px;
+    z-index: 200;
+    position: relative;
+    bottom: 140px;
+    flex-direction: row;
+    border-radius: 18px;
+    margin-right: 5%;
+    display: flex;
+    margin-top: 17%;
+    min-width: 400px;
+    min-height: 570px;
+  }
+
+
+
+  #gallery{
+
+
+    background-color: black;
+    height: 200vh;
+    min-height: 2000px;
+    width: 100%;
+    flex-direction: row;
+
+
+
+
+
+  }
+
+  .image{
+
+
+    display: flex;
+    width: 100%;
+
+  }
+  .image-long{
+    grid-column-start: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+
+
+
+
+  }
+
+  .image-wide{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+
+
+    display: flex;
+    height: 400px;
+
+
+
+
+  }
+
+
+
+  .image-last{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    display:flex;
+    height: 400px;
+    width: 85%;
+    margin-left: 20%;
+
+  }
+
+  .image-mask{
+
+    grid-column-start: 1;
+
+
+    width: 127%;
+    height:  100%;
+
+  }
+  .grid-container{
+
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-template-rows: repeat (4, 50%);
+    grid-column-gap: 50px;
+    grid-row-gap: 65px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+
+
+
+  #contact{
+    background-image: url(/images/dark-rroom.jpg);
+    height: 120vh;
+    min-height: 1250px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+
+
+  }
+  #contact-overlay{
+
+    height: 120vh;
+    min-height: 1250px;
+    width: 100%;
+    position: absolute;
+
+    background-color: black;
+    z-index: 1;
+    opacity: 0.65;
+
+  }
+
+  #reserve{
+
+    background: rgba(17, 16, 16, 0.8);
+    width: 400px;
+    min-height: 520px;
+    min-width: 400px;
+    justify-content: center !important;
+
+    align-items: center !important;
+    flex-direction: row;
+    z-index: 2;
+    margin-bottom: unset;
+    margin-left: unset;
+    margin-top: 90px;
+    
+
+  }
+  .reserve-title{
+
+    color: white;
+    font-size: 38px;
+    font-family: 'Abril Fatface', cursive;
+    align-self: center;
+
+
+  }
+  .text-box{
+    background: rgba(0, 0, 0, 0.0);
+    border: darkred solid 1px;
+    height: 36px;
+    width:18vh;
+    color: white;
+    text-align: left !important;
+
+  }
+  .text-left{
+
+    margin-right: 10px;
+
+
+
+
+  }
+  .text-r{
+
+    margin-left: 10px;
+    text-align:left !important;
+    direction: ltr !important;
+  }
+
+  #text-area{
+    background: rgba(0, 0, 0, 0.0);
+    border: darkred solid 1px;
+    width: 38vh;
+    color: white;
+
+  }
+  #res-button{
+
+    width: 340px;
+
+  }
+
+
+  #contact-us{
+
+    height:50vh;
+    width: 60vh;
+    min-height: 500px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start !important;
+
+    align-items: center !important;
+    z-index: 2;
+
+    padding: 20px;
+    flex-wrap: nowrap;
+
+  }
+
+
+
+  #contact-write{
+
+    justify-content: flex-start !important;
+
+    align-items: center !important;
+
+    text-align: center;
+
+
+
+
+
+  }
+  .contact-title{
+
+    color: white;
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-info{
+
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    align-self: flex-start;
+    font-weight: lighter;
+    text-align: center;
+
+
+  }
+  #contact-info{
+
+    flex-direction: column;
+    justify-content: center!important;
+
+    align-items: center !important;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+  }
+
+  .location{
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+
+
+  }
+  .location-info{
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight:100;
+
+
+  }
+
+  .overlay{
+
+
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+  .title{
+
+    font-size: 40px;
+  }
+
+  .title-fun{
+
+    font-size: 15px;
+  }
+
+  #header-btn{
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+
+  }
+
+  #about-pic{
+
+    height: 300px;
+    
+    min-width: 350px;
+    margin-right:unset;
+  }
+
+  #about-des{
+    min-width: 350px;
+
+
+  }
+  #intro-des{
+    height: 100vh;
+    min-height: 900px;
+    padding-top: 100px;
+
+
+
+  }
+
+  #whatweoffer{
+
+    flex-wrap: wrap;
+    height: 160vh;
+    min-height: 2000px;
+
+  }
+
+  .aboutUs{
+
+    font-size: 30px;
+
+
+
+
+  }
+
+
+  .description{
+
+    font-size: 15px;
+
+
+
+  }
+
+  #about-des{
+
+    position: relative;
+    bottom: 80px;
+
+
+
+
+  }
+
+
+  .flex-container #info{
+
+    height:40vh;
+    width: 425px;
+    min-height: 450px;
+
+
+  }
+
+  .info-icon{
+
+    font-size: 5px;
+
+
+  }
+
+
+  .advertisement{
+
+    text-align: center;
+    font-size: 30px;
+
+
+  }
+
+
+  .flex-container #test{
+
+    height:300px;
+    width: 400px;
+    min-width: unset;
+  }
+  .flex-container #features-info{
+
+    flex-wrap: wrap;
+    width: 400px;
+    height: 600px;
+    margin-right: 50px;
+
+
+
+  }
+  .flex-container #carousel-3{
+    margin-bottom: 200px;
+    width: 400px;
+    height: 600px;
+
+  }
+
+
+
+  #advertisementID{
+    font-size: 30px;
+    text-align: center;
+
+
+  }
+  .f-description{
+    text-align: center;
+
+  }
+  .features-pic{
+
+    height: 200px;
+    width: 270px;
+    position: relative;
+    bottom: 70px;
+    left: 35px;
+  }
+  svg{
+    display: none;
+
+
+  }
+  .about-overlay{
+
+    height: 160vh;
+
+  }
+  #lineup{
+
+    min-height: 1448px;
+
+
+
+  }
+  .Star-title{
+
+    font-size: 35px;
+
+
+  }
+  .card{
+
+    width: 330px;
+
+
+  }
+  .card-header{
+    height: 70px;
+
+  }
+
+  .card-pic{
+
+    object-fit: cover;
+    width: auto;
+    height: 240px;
+    width: 330px;
+
+
+  }
+
+
+  .overlay{
+
+
+    display: none;
+  }
+
+  #reservef{
+
+    width: 425px;
+    min-width: 425px;
+  }
+
+}
+
+@media only screen and (max-width: 699px) and (min-width: 421px) {
+
+
+  .flex-container #features-info{
+
+    flex-wrap: wrap;
+    width: 30%;
+    height: 60vh;
+    min-height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 340px;
+    margin-top: unset;
+
+
+  }
+  .flex-container #features-des{
+
+    flex-direction: column;
+    margin-right: 7%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 6%;
+    padding-left: 2%;
+    margin-bottom: 80px;
+    max-width: 800px;
+    min-height: 50%;
+  }
+  #advertisementID{
+
+    font-size: 35px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-start;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+
+  #image-padding{
+
+    margin-right: 19%;
+    margin-bottom: 0%;
+    height: 40%;
+    width: 70%;
+    min-width: 300px;
+
+
+  }
+
+  .features-pic{
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 70px;
+    left: 35px;
+  }
+
+  .flex-container #test{
+
+    margin-top: 170px;
+    width: 37vh;
+    min-width: unset;
+  }
+
+  .about-overlay{
+
+    height: 160vh;
+    min-height: 2000px;
+
+  }
+
+  #lineup{
+
+    background-color: black;
+    height: 1667px;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 30px;
+
+  }
+  .Star-title{
+    margin-bottom: 10%;
+    margin-top: 5%;
+
+  }
+
+  #Music-sec{
+    background-image: url(/images/dj-woman.jpg);
+    height: 231vh;
+    min-height: 2000px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    flex-wrap: wrap;
+
+  }
+
+
+  .music-overlay{
+    height: 231vh;
+    min-height: 2000px;
+    width: 100%;
+    position: absolute;
+
+    background-color: black;
+    z-index: 1;
+    opacity: 0.65;
+
+  }
+  #music-player{
+
+    min-width: 320px;
+  }
+  #events{
+
+    background: rgba(0, 0, 0, 0.6);
+    height:106vh;
+    width: 420px;
+    min-height: 870px;
+
+    align-items: flex-start;
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-flow: row;
+    margin-right: 20px;
+    display:flex;
+    margin-left: 5%;
+    z-index: 2;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+  }
+
+  .performance-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+
+  }
+
+  #gallery{
+
+
+    background-color: black;
+    height: 205vh;
+    min-height: 2500px;
+    width: 100%;
+    flex-direction: row;
+
+
+
+
+
+  }
+
+  .image{
+
+
+    display: flex;
+    width: 370px;
+
+  }
+  .image-long{
+    grid-column-start: 1;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+
+
+
+
+  }
+
+  .image-wide{
+
+    grid-column-start: 1;
+    grid-row-start: 3;
+
+    grid-column-end: unset;
+    display: flex;
+    height: 300px;
+
+
+
+
+  }
+
+
+
+  .image-last{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    display:flex;
+    height: 400px;
+
+
+
+  }
+
+  .image-mask{
+
+    height:  100%;
+
+  }
+  .grid-container{
+
+    display: grid;
+    grid-template-columns: 370px ;
+    grid-template-rows: repeat (6, 400px);
+    grid-column-gap: 25px;
+    grid-row-gap: 65px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+
+
+
+
+  #contact{
+    background-image: url(/images/dark-rroom.jpg);
+    height: 110vh;
+    min-height: 1500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+
+
+
+  #contact-overlay{
+
+    height: 110vh;
+    width: 100%;
+    min-height: 1500px;
+    position: absolute;
+
+    background-color: black;
+    z-index: 1;
+    opacity: 0.65;
+
+
+
+
+
+
+
+
+  }
+
+  #contact-us{
+
+    height:50vh;
+    width: 60vh;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start !important;
+
+    align-items: center !important;
+    z-index: 2;
+
+    padding: 20px;
+
+  }
+  #contact-write{
+
+    justify-content: flex-start !important;
+
+    align-items: center !important;
+
+    text-align: center;
+
+
+
+
+
+  }
+  .contact-title{
+
+    color: white;
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .contact-info{
+
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    align-self: flex-start;
+    font-weight: lighter;
+    text-align: center;
+
+
+  }
+  #contact-info{
+
+    flex-direction: column;
+    justify-content: center !important;
+
+    align-items: center !important;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .location{
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+
+
+  }
+  .location-info{
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight:100;
+
+
+  }
+  #reserve{
+
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+
+  .text-news{
+
+    margin-bottom: 9%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #newsletter{
+    background-color: black;
+    height: 35vh;
+    width: 100%;
+    flex-direction:row;
+    align-items: center;
+
+
+
+  }
+
+  .news-title{
+    margin-top: 21px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+
+
+
+
+  }
+
+  #subscribe{
+    flex-direction: row;
+    margin-bottom: 75px;
+
+
+
+  }
+  .sub-button{
+
+    height: 4.4vh;
+    width: 200px;
+
+
+
+  }
+
+
+
+
+}
+
+@media only screen and (max-width: 420px) {
+
+
+
+
+
+  #whatweoffer{
+
+    flex-wrap: wrap;
+    height: 231vh!important;
+    min-height: 2000px;
+
+  }
+
+
+
+
+  .flex-container #info{
+
+    margin-top: 50%;
+    min-width: unset;
+    
+
+  }
+
+  .entertainment{
+
+
+
+
+    margin-bottom: 27%;
+  }
+
+  .flex-container #features-info{
+
+    min-width: unset;
+    height: 590px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+
+  }
+  #image-padding{
+
+    margin-right: 19%;
+    margin-bottom: 20%;
+
+
+
+  }
+  .about-overlay{
+
+    height: 231vh;
+    min-height: 2000px;
+
+
+  }
+
+  #lineup{
+
+    background-color: black;
+    height: 120%;
+    width: 100%;;
+    flex-direction: row;
+    padding-top: 30px;
+
+
+
+
+
+
+  }
+
+
+
+  .Star-title{
+
+
+    color: white;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    align-self: flex-start;
+
+    top: unset;
+    text-align: center;
+
+
+
+  }
+  .card{
+
+
+    margin: 40px;
+    width: 320px;
+  }
+
+  .card-header{
+    height: 70px;
+    width: 300px;
+  }
+
+  .card-pic{
+
+    object-fit: cover;
+    width: auto;
+    height: 260px;
+
+
+  }
+
+
+  #Music-sec{
+    background-image: url(/images/dj-woman.jpg);
+    height: 251vh;
+    min-height: 1842px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    flex-wrap: wrap;
+
+
+
+
+
+  }
+
+  #divider-2{
+
+    position: absolute;
+    top: 319%;
+
+    width: 100%;
+    height: 15vh;
+    z-index: 10;
+
+
+
+
+
+  }
+
+  .music-overlay{
+    height: 251vh;
+    min-height: 1842px;
+    width: 100%;
+    position: absolute;
+
+    background-color: black;
+    z-index: 1;
+    opacity: 0.65;
+
+
+
+
+
+
+  }
+
+
+
+  #events{
+
+    background: rgba(0, 0, 0, 0.6);
+    height:136vh;
+    width: 100%;
+    align-items: flex-start;
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-flow: row;
+    margin-right: 20px;
+    display:flex;
+    margin-left: 5%;
+    z-index: 2;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+  }
+  .eventlist{
+
+    height: 47vh;
+
+  }
+
+  .performance-container{
+    flex-shrink: 0;
+    height:55vh;
+    width: 350px;
+    padding-right: 50px;
+    padding-top: 10px;
+    display: flex;
+    padding-left: 50px;
+  }
+  .performance-pic{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+
+  }
+  #event-post{
+
+    background: unset;
+
+    height: 120px;
+    width: 100%;
+    border-top: 2px solid white;
+    flex-flow: column;
+
+  }
+
+  .event-Title{
+    margin-bottom: 0rem;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 30px;
+
+  }
+
+  .event-Date{
+    color: white;
+    align-self: center;
+    padding-top: 20px;
+
+
+  }
+  .event-info{
+
+    color: white;
+    align-self: center;
+
+
+
+
+  }
+  .event-time{
+
+    color: white;
+    align-self: center;
+
+
+
+
+  }
+
+
+  #music-player{
+
+    background-color: white;
+    height: 80vh;
+    min-width: 100%;
+    margin-left: 20px;
+    z-index: 200;
+
+    flex-direction: row;
+    border-radius: 18px;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 50%;
+  }
+
+  #music-banner{
+    height: 10vh;
+    width: 100%;
+    background-image: url(/images/blurred_lines.jpeg);
+    z-index: 201;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: flex-start;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    color: white;
+    font-size: 25px;
+
+  }
+
+
+  #mp4{
+
+    flex-direction: row;
+    align-self: flex-start;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+
+  }
+
+  #mp4-des{
+
+    flex-direction: column;
+    padding-right: 130px;
+    margin-bottom: -20px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+  .mp4-name{
+    align-self: flex-start;
+    font-weight: bold;
+    flex-wrap: nowrap;
+
+  }
+
+
+  #mp4-icons{
+
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+
+
+  }
+
+  .pause-icon{
+
+    margin-left: 20px;
+
+
+
+  }
+  #gallery{
+
+
+    background-color: black;
+    min-height: 2500px;
+
+    width: 100%;;
+    flex-direction: row;
+  }
+
+  .image{
+    display: flex;
+    width: 320px;
+
+  }
+  .image-long{
+    grid-column-start: 1;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+  }
+
+  .image-wide{
+
+    grid-column-start: 1;
+    grid-row-start: 3;
+
+    grid-column-end: unset;
+    display: flex;
+    height: 300px;
+  }
+  .image-last{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    display:flex;
+    height: 400px;
+  }
+
+  .image-mask{
+
+    height:  100%;
+
+  }
+  .grid-container{
+
+    display: grid;
+    grid-template-columns: 320px ;
+    grid-template-rows: repeat (6, 400px);
+    grid-column-gap: 25px;
+    grid-row-gap: 65px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+  #contact{
+    background-image: url(/images/dark-rroom.jpg);
+    height: 200vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+
+
+
+  #contact-overlay{
+
+    height: 200vh;
+    width: 100%;
+    position: absolute;
+
+    background-color: black;
+    z-index: 1;
+    opacity: 0.65;
+
+  }
+
+  #contact-us{
+
+    height:200px;
+    min-height: 600px;
+
+    width: 60vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start !important;
+
+    align-items: center !important;
+    z-index: 2;
+
+    padding: 20px;
+
+  }
+  #contact-write{
+
+    justify-content: flex-start !important;
+
+    align-items: center !important;
+
+    text-align: center;
+
+
+
+
+
+  }
+  .contact-title{
+
+    color: white;
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .contact-info{
+
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    align-self: flex-start;
+    font-weight: lighter;
+    text-align: center;
+
+
+  }
+  #contact-info{
+
+    flex-direction: column;
+    justify-content: flex-start !important;
+
+    align-items: center !important;
+    margin-top: 100px;
+    text-align: center;
+   
+  }
+
+  .location{
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+
+
+  }
+  .location-info{
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight:100;
+
+
+  }
+
+  #reserve{
+
+    background: rgba(17, 16, 16, 0.8);
+    height:55%;
+    width: 90%;
+    min-height: 807px;
+
+    justify-content: flex-start !important;
+
+    align-items: center !important;
+    flex-direction: column;
+    z-index: 2;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    display:flex;
+    padding-bottom: 15%;
+  
+
+  }
+  .reserve-title{
+
+    color: white;
+    font-size: 38px;
+    font-family: 'Abril Fatface', cursive;
+    align-self: center;
+    margin-right: 15px;
+    margin-top: 15%;
+
+  }
+  .text-box{
+    background: rgba(0, 0, 0, 0.0);
+    border: darkred solid 1px;
+    height: 40px;
+    width:70%;
+    color: white;
+    text-align: left !important;
+    align-self: center;
+    margin-right: unset;
+  }
+  .text-left{
+
+    margin-right: auto;
+    margin-left: auto;
+
+
+
+
+  }
+  .text-r{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left !important;
+    direction: ltr !important;
+    margin-top: 30px;
+  }
+
+  #text-area{
+    background: rgba(0, 0, 0, 0.0);
+    border: darkred solid 1px;
+    width: 80%;
+    color: white;
+
+
+  }
+  #res-button{
+    margin-top: 16px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  #newsletter{
+    background-color: black;
+    height: 55vh;
+    width: 100%;
+    flex-direction:row;
+    align-items: center;
+
+
+
+  }
+
+  .news-title{
+    margin-top: 21px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+
+
+
+
+  }
+  .text-news{
+
+    background: rgba(0, 0, 0, 0.0);
+    border: darkred solid 1px;
+    height: 4.4vh;
+    width:80%;
+    margin-right: 0px;
+    margin-bottom: 40px;
+
+  }
+  #subscribe{
+    flex-direction: row;
+    margin-bottom: 75px;
+
+
+
+  }
+  .sub-button{
+
+    height: 4.4vh;
+    width: 200px;
+
+
+
+  }
+
+  .overlay{
+
+
+    display: none;
+  }
+
+
+  .reserve-title{
+    margin-top: unset;
+  }
+  #reservef{
+
+    width: 100%;
+    min-width: 100%;
+    min-height: 900px;
+  }
+
+  .reserve-1{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+
+  .text-boxf{
+    background: rgba(0, 0, 0, 0.0);
+    border: darkred solid 1px;
+    height: 40px;
+    width: 65%;
+    min-width: 170px;
+    padding-left: 10px;
+    color: white;
+    text-align: left !important;
+  
+  }
+  .text-leftf{
+  
+    margin-right: unset;
+  
+  
+  
+  
+  }
+  .text-rf{
+  
+    margin-left: unset;
+    text-align:left !important;
+    direction: ltr !important;
+    margin-top: 20px;
+  }
+  
+  #text-areaf{
+    background: rgba(0, 0, 0, 0.0);
+    border: darkred solid 1px;
+    width: 73%;
+  
+    color: white;
+  
+  }
+
+  .form-page{
+
+    background-image: url(/images/dark-rroom.jpg);
+    height: 85vh;
+    min-height: 1100px;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .news-titlef {
+    text-align: center;
+}
+#form-newsletter {
+  background-color: black;
+  height: 25vh;
+  min-height: 350px;
+  width: 100vw;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+}
